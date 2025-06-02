@@ -1,0 +1,71 @@
+Package not found error for the first time:
+conda config --add channels defaults
+conda config --add channels conda-forge
+conda config --set channel_priority flexible
+
+---------------*-------------------------*---------------------*----------------------------------
+
+Navigate to the specific location where python file is present(Laocal Disk E)
+E:    (press Enter)
+cd "Folder Name"   ---->  cd "Python Programming Awfera"
+cd "File Name" ---->  cd Firstprogram   (For compiling the file)
+For going back: cd ..
+
+---------------*-------------------------*---------------------*----------------------------------
+
+Creating a new environment for python file:
+conda create -n Environment Name python=version ---->  conda create -n First_Env python=3.10
+
+---------------*-------------------------*---------------------*----------------------------------
+
+Activating Environmet:
+conda activate Environment Name ---->  conda activate First_Env
+
+---------------*-------------------------*---------------------*----------------------------------
+
+Installing python library in Virtual Environment after activating it:
+pip install library name==version  ---->  pip install numpy==2.3
+OR
+conda install library name ---->   conda install numpy, conda install pandas
+
+---------------*-------------------------*---------------------*----------------------------------
+
+Checking Libraries list in the Virtual Environment(current, open):
+conda list
+
+---------------*-------------------------*---------------------*----------------------------------
+
+Removing Package:
+conda remove package-name ---->  conda remove pandas
+pip uninstall package-name  ---->  pip uninstall numpy
+
+---------------*-------------------------*---------------------*----------------------------------
+
+Checking python version:
+python -V
+
+---------------*-------------------------*---------------------*----------------------------------
+
+Deactivate Environment:
+conda deactivate ----> conda deactivate
+
+---------------*-------------------------*---------------------*----------------------------------
+
+Seeing List of Virtual Environments made by you in project:
+conda info -e
+
+---------------*-------------------------*---------------------*----------------------------------
+
+Deleting Virtual Environment From Project:
+conda remove --name Virtual Environment name --all ---->  conda remove --name First_Env --all
+
+---------------*-------------------------*---------------------*----------------------------------
+
+Checking at which Environment surrently Working:
+conda info --envs(the * symbol will be present with that environment)
+
+---------------*-------------------------*---------------------*----------------------------------
+
+Open Command Palette: Press Ctrl + Shift + P.
+Type: "Python: Select Interpreter" and select it.
+It will display the active Python interpreter and the path of the virtual environment.
