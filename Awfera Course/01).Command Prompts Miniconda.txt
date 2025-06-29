@@ -24,7 +24,7 @@ conda activate Environment Name ---->  conda activate First_Env
 ---------------*-------------------------*---------------------*----------------------------------
 
 Installing python library in Virtual Environment after activating it:
-pip install library name==version  ---->  pip install numpy==2.3
+pip install library_name==version  ---->  pip install numpy==2.3
 OR
 conda install library name ---->   conda install numpy, conda install pandas
 
@@ -61,7 +61,7 @@ conda remove --name Virtual Environment name --all ---->  conda remove --name Fi
 
 ---------------*-------------------------*---------------------*----------------------------------
 
-Checking at which Environment surrently Working:
+Checking at which Environment currently Working:
 conda info --envs(the * symbol will be present with that environment)
 
 ---------------*-------------------------*---------------------*----------------------------------

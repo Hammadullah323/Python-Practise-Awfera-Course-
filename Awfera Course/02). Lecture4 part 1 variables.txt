@@ -15,8 +15,8 @@ Rules for naming variables in python
 
 1). any variable that we create must start with letter(A-Z, a-z) or underscore(_). name, _name
 2). Cannot start with number. (1name)invalid
-3). Names can only contain letters, numbers and nderscore
-4). Case Sensitive. FirstName ---> firstName(both are different variables).
+3). Names can only contain letters, numbers and underscore
+4). Case Sensitive. FirstName <---> firstName(both are different variables).
 5). Reserved words cannot be used as variables.
 6). name of variable must be meaningfull.
 
